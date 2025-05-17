@@ -92,7 +92,7 @@ def main():
                     llm = ChatGroq(
                         model_name="llama3-8b-8192",
                         temperature=0.2,
-                        api_key=os.getenv("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")
+                        api_key=os.getenv("GROQ_API_KEY")
                     )
 
                     # Your original system message creation
